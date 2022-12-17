@@ -1,4 +1,4 @@
-export PATH="$HOME/bin:$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="$HOME/bin:$PATH:$HOME/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 if [ $TERM_PROGRAM != "Apple_Terminal" ]; then
   eval "$(posh init zsh --config $HOME/.posh-themes/marcduiker.omp.json)"
 fi
