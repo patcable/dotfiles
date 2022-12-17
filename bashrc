@@ -7,3 +7,5 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 test -e "${HOME}/dotfiles-ts/env.bash" && source "${HOME}/dotfiles-ts/env.bash"
 test -e "${HOME}/dotfiles-pers/env.bash" && source "${HOME}/dotfiles-pers/env.bash"
+# reset any status code from above. its ok if they dont exist.
+echo -n
